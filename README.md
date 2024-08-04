@@ -13,9 +13,11 @@ This repository contains a Vagrantfile, a Python application, and a MinIO instal
 ### Step 1: Clone the repository
 
 Clone this repository using the following command:
+
 ```bash
 git clone https://github.com/your-username/devops-assignment.git
 
+```
 ###  Step 2: Create a Vagrant VM
 
 Change into the repository directory and create a Vagrant VM using the following command:
