@@ -15,7 +15,7 @@ This repository contains a Vagrantfile, a Python application, and a MinIO instal
 Clone this repository using the following command:
 
 ```bash
-git clone https://github.com/your-username/devops-assignment.git
+git clone https://github.com/OsamaOracle/DevOps-Project-Vagrant.git
 
 ```
 ###  Step 2: Create a Vagrant VM
