@@ -51,10 +51,10 @@ This will create a new Vagrant VM with Ubuntu 18.04.
 5. Add the following secrets:
 
 
-`MINIO_ACCESS_KEY`
-`MINIO_SECRET_KEY`
-`DOCKER_USERNAME`
-`DOCKER_PASSWORD`
+> - MINIO_ACCESS_KEY
+- MINIO_SECRET_KEY
+- DOCKER_USERNAME
+- DOCKER_PASSWORD
 
 
 ### Step 5: Build and start the Docker containers
