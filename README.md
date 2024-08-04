@@ -12,16 +12,18 @@ This repository contains a Vagrantfile, a Python application, and a MinIO instal
 
 ### Step 1: Clone the repository
 
-**Clone this repository using the following command:
-**
+**Clone this repository using the following command:**
+
+
+
 ```bash
 git clone https://github.com/OsamaOracle/DevOps-Project-Vagrant.git
 
 ```
 ###  Step 2: Create a Vagrant VM
 
-**Change into the repository directory and create a Vagrant VM using the following command:
-**
+**Change into the repository directory and create a Vagrant VM using the following command:**
+
 
     cd devops-project
     vagrant up
@@ -30,8 +32,8 @@ This will create a new Vagrant VM with Ubuntu 18.04.
 
 ### Step 3: Create a MinIO account
 
-**You can obtain these values by creating a MinIO account or by using an existing one. To create a new MinIO account, follow these steps:
-**
+**You can obtain these values by creating a MinIO account or by using an existing one. To create a new MinIO account, follow these steps:**
+
 
 1. Go to the MinIO website and click on "Sign Up".
 2. Fill in the registration form and click on "Create Account".
@@ -43,8 +45,7 @@ This will create a new Vagrant VM with Ubuntu 18.04.
 
 ### Step 4: Setting Up GitHub Secrets
 
-**To use GitHub Secrets for sensitive data, follow these steps:
-**
+**To use GitHub Secrets for sensitive data, follow these steps:**
 
 1. Go to your GitHub repository.
 2. Click on Settings.
@@ -64,21 +65,16 @@ This will create a new Vagrant VM with Ubuntu 18.04.
 
 ### Step 5: Build and start the Docker containers
 
-**Build and start the Docker containers using the following command:
-**
+**Build and start the Docker containers using the following command:**
 
 
     docker-compose up -d
 	
-	
-	
-
-This will build the Docker images for the Python application and MinIO, and start the containers in detached mode.
+	This will build the Docker images for the Python application and MinIO, and start the containers in detached mode.
 
 ### Step 6: Access the MinIO web interface
 
-**Access the MinIO web interface using the following URL:
-**
+**Access the MinIO web interface using the following URL:**
 
 
     http://localhost:9000
@@ -87,8 +83,7 @@ You can log in to the MinIO console using the access key and secret key you set 
 
 ### Step 7: Run the Python application
 
-**Run the Python application using the following command:
-**
+**Run the Python application using the following command:**
 
 
     docker-compose exec app python hello_world.py
