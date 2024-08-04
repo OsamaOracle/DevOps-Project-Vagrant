@@ -63,6 +63,24 @@ This will create a new Vagrant VM with Ubuntu 18.04.
 - DOCKER_PASSWORD
 
 
+**Be noted that you have two option for the python code, make sure to choose one of them**
+
+1. Create a .env file in the same directory as your Python script:
+
+    MINIO_ENDPOINT=localhost:9000
+    MINIO_ACCESS_KEY=your_access_key
+    MINIO_SECRET_KEY=your_secret_key
+
+OR
+
+2. Setting Environment Variables in Shell
+
+    export MINIO_ENDPOINT=localhost:9000
+    export MINIO_ACCESS_KEY=your_access_key
+    export MINIO_SECRET_KEY=your_secret_key
+    python3 /vagrant/src/app/upload_to_minio.py /path/to/your/file
+
+
 ### Step 5: Build and start the Docker containers
 
 **Build and start the Docker containers using the following command:**
