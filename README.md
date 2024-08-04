@@ -1,4 +1,4 @@
-# DevOps Assignment
+# DevOps Project Vagrant
 
 This repository contains a Vagrantfile, a Python application, and a MinIO installation script, all containerized using Docker and orchestrated using Docker Compose.
 
