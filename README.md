@@ -63,7 +63,7 @@ This will create a new Vagrant VM with Ubuntu 18.04.
 - DOCKER_PASSWORD
 
 
-**Be noted that you have two option for the python code, make sure to choose one of them**
+***Be noted that you have two option for the python code, make sure to choose one of them***
 
 1. Create a .env file in the same directory as your Python script:
 
